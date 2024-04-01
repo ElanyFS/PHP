@@ -25,7 +25,7 @@ function calcularIdade($data){
            $idade -= 1;
 
        } 
-       elseif ( ($mesAtual == $mesNasc) && ($diaAtual <= $diaNasc) ){
+       elseif ( ($mesAtual == $mesNasc) && ($diaAtual < $diaNasc) ){
            $idade -= 1;
        }
     
